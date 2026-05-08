@@ -58,6 +58,8 @@ Python · PySide6 · TypeScript · Node.js · SQLite · MCP · Claude API · Oll
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7296--1534-green?style=flat-square&logo=orcid)](https://orcid.org/0009-0005-7296-1534)
 
+[Legal notice / Impressum](https://um-bruch.org/impressum/)
+
 ---
 
 ## Haftung / Liability
