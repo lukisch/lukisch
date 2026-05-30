@@ -1,0 +1,40 @@
+# Lukas Geiger GitHub Profile
+
+Canonical profile:
+- GitHub: https://github.com/lukisch
+- Profile repository: https://github.com/lukisch/lukisch
+- ORCID: https://orcid.org/0009-0005-7296-1534
+- Legal notice: https://um-bruch.org/impressum/
+
+Short description:
+Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
+
+Main GitHub ecosystem:
+- ellmos-ai: LLM operating systems, MCP servers, agent memory, orchestration, and self-hosted AI infrastructure.
+- open-bricks: Umbrella for local-first desktop software and practical tools.
+- file-bricks: File, document, OCR, SQLite, prompt, and knowledge-management apps.
+- doc-bricks: Mail, PDF, reading, document, and archival utilities.
+- dev-bricks: Python IDEs, static-analysis tools, and developer utilities.
+- research-line: Open-science repositories, papers, reproducible code, and research prototypes.
+- biotec-line: Local-first bioinformatics tools for VCF and genotype workflows.
+- entertain-and-more: Small games and AI-assisted entertainment experiments.
+- assistassets-ai: Local-first financial analysis tools without trading advice.
+
+Representative projects:
+- BACH: https://github.com/ellmos-ai/bach
+- ellmos FileCommander MCP: https://github.com/ellmos-ai/ellmos-filecommander-mcp
+- ellmos CodeCommander MCP: https://github.com/ellmos-ai/ellmos-codecommander-mcp
+- ellmos Clatcher MCP: https://github.com/ellmos-ai/ellmos-clatcher-mcp
+- n8n Manager MCP: https://github.com/ellmos-ai/n8n-manager-mcp
+- USMC: https://github.com/ellmos-ai/usmc
+- swarm-ai: https://github.com/ellmos-ai/swarm-ai
+- VFDistiller: https://github.com/biotec-line/VFDistiller
+- VerordnungsAmpel: https://github.com/research-line/verordnungsampel
+
+Keywords:
+local-first software, privacy-first desktop apps, Model Context Protocol, MCP server, LLM agents, agent memory, Python, PySide6, TypeScript, Node.js, SQLite, Ollama, Claude Code, n8n, OCR, PDF tools, bioinformatics, reproducible research, open science.
+
+Scope and safety:
+- The profile links to mixed software and research repositories.
+- Health, finance, and bioinformatics projects are research-use-only or information tools unless their own README states otherwise.
+- The profile does not provide medical, financial, legal, or clinical advice.

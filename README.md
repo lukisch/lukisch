@@ -1,72 +1,81 @@
-## Hi, I'm Lukas 👋
+## Lukas Geiger
 
-Independent researcher and developer building **AI-native open-source tools** — from LLM operating systems to desktop apps to scientific computing.
+Independent researcher and developer building **local-first AI tools, MCP servers, desktop software, and reproducible research code**.
 
-### 🔬 What I'm working on
+I work across a small public GitHub ecosystem:
 
-**AI Infrastructure** — [ellmos-ai](https://github.com/ellmos-ai)
-> LLM operating systems, MCP servers, and agent frameworks.
+| Start here | What you will find |
+|---|---|
+| [ellmos-ai](https://github.com/ellmos-ai) | LLM operating systems, Model Context Protocol servers, agent memory, orchestration, and self-hosted AI infrastructure |
+| [open-bricks](https://github.com/open-bricks) | Umbrella for local-first desktop software and practical tools |
+| [file-bricks](https://github.com/file-bricks) | File, document, OCR, SQLite, prompt, and knowledge-management apps |
+| [doc-bricks](https://github.com/doc-bricks) | Mail, PDF, reading, document, and archival utilities |
+| [dev-bricks](https://github.com/dev-bricks) | Python IDEs, static-analysis tools, and developer utilities |
+| [research-line](https://github.com/research-line) | Open-science repositories, papers, reproducible code, and research prototypes |
+| [biotec-line](https://github.com/biotec-line) | Local-first bioinformatics tools for VCF and genotype workflows |
+| [entertain-and-more](https://github.com/entertain-and-more) | Small games and AI-assisted entertainment experiments |
+| [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis tools without trading advice |
 
-| Project | Description |
-|---------|-------------|
-| [BACH](https://github.com/ellmos-ai/bach) | Text-based OS for LLMs — 109+ handlers, 373+ tools, 932+ skills |
-| [FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp) | 43-tool MCP server: filesystem, processes, interactive sessions [![npm](https://img.shields.io/npm/v/ellmos-filecommander-mcp.svg?style=flat-square)](https://www.npmjs.com/package/ellmos-filecommander-mcp) |
-| [CodeCommander MCP](https://github.com/ellmos-ai/ellmos-codecommander-mcp) | 17-tool MCP server: code analysis, AST, import management [![npm](https://img.shields.io/npm/v/ellmos-codecommander-mcp.svg?style=flat-square)](https://www.npmjs.com/package/ellmos-codecommander-mcp) |
-| [Clatcher MCP](https://github.com/ellmos-ai/ellmos-clatcher-mcp) | 12-tool MCP server: repair, convert, batch ops [![npm](https://img.shields.io/npm/v/ellmos-clatcher-mcp.svg?style=flat-square)](https://www.npmjs.com/package/ellmos-clatcher-mcp) |
-| [n8n Manager MCP](https://github.com/ellmos-ai/n8n-manager-mcp) | 13-tool MCP server for n8n workflow management [![npm](https://img.shields.io/npm/v/n8n-manager-mcp.svg?style=flat-square)](https://www.npmjs.com/package/n8n-manager-mcp) |
-| [clutch](https://github.com/ellmos-ai/clutch) | Provider-neutral LLM orchestration with auto-routing and budget tracking |
-| [rinnsal](https://github.com/ellmos-ai/rinnsal) | Lightweight agent memory and automation infrastructure |
-| [ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) | Self-hosted AI stack: Ollama + n8n + Memory + Knowledge Base |
-| [MarbleRun](https://github.com/ellmos-ai/MarbleRun) | Autonomous agent chain framework for Claude Code |
+### AI infrastructure
 
----
+The `ellmos-ai` repositories are the core technical layer for local AI work: agent memory, file and code tools, n8n automation, self-hosted stacks, and LLM orchestration.
 
-**Desktop Software** — [open-bricks](https://github.com/open-bricks)
-> A New Open Office — AI-native desktop apps. Open source, local-first, LLM-ready.
+| Project | Scope |
+|---|---|
+| [BACH](https://github.com/ellmos-ai/bach) | Text-based LLM operating system with handlers, tools, skills, memory, and automation modules |
+| [ellmos FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp) | MCP server for local filesystem, process, search, PDF, markdown, and session operations |
+| [ellmos CodeCommander MCP](https://github.com/ellmos-ai/ellmos-codecommander-mcp) | MCP server for code analysis, AST inspection, import management, and project navigation |
+| [ellmos Clatcher MCP](https://github.com/ellmos-ai/ellmos-clatcher-mcp) | MCP server for JSON repair, format conversion, duplicate detection, and batch operations |
+| [n8n Manager MCP](https://github.com/ellmos-ai/n8n-manager-mcp) | MCP server for inspecting and managing n8n workflows |
+| [USMC](https://github.com/ellmos-ai/usmc) | United Shared Memory Client: local SQLite memory for LLM agents |
+| [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Python toolkit for parallel LLM-agent orchestration patterns |
+| [clutch](https://github.com/ellmos-ai/clutch) | Provider-neutral LLM routing, budget tracking, and orchestration helper |
+| [ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) | Self-hosted AI stack around Ollama, n8n, memory, and knowledge tools |
 
-| Category | Organization | Highlights |
-|----------|-------------|------------|
-| File Management | [file-bricks](https://github.com/file-bricks) | [ExplorerPro](https://github.com/file-bricks/ExplorerPro) · [ProFiler](https://github.com/file-bricks/ProFiler) · [ProSync](https://github.com/file-bricks/ProSync) · [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM) · [KnowledgeDigest](https://github.com/file-bricks/knowledgedigest) · [SQLiteViewer](https://github.com/file-bricks/SQLiteViewer) · [+5 more](https://github.com/file-bricks) |
-| Document Tools | [doc-bricks](https://github.com/doc-bricks) | [MediaBrain](https://github.com/doc-bricks/MediaBrain) · [DokuReader](https://github.com/doc-bricks/DokuReader) · [LitZentrum](https://github.com/doc-bricks/LitZentrum) |
-| Developer Tools | [dev-bricks](https://github.com/dev-bricks) | [DevCenter](https://github.com/dev-bricks/DevCenter) · [pythonbox](https://github.com/dev-bricks/pythonbox) · [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) · [apiprober](https://github.com/dev-bricks/apiprober) |
-| Entertainment | [entertain-and-more](https://github.com/entertain-and-more) | [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess) · [RPX Pro](https://github.com/entertain-and-more/rpx) |
-| Bioinformatics | [biotec-line](https://github.com/biotec-line) | [VFDistiller](https://github.com/biotec-line/VFDistiller) · [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) |
-| Finance | [assistassets-ai](https://github.com/assistassets-ai) | [FinancialProof](https://github.com/assistassets-ai/FinancialProof) |
+### Local-first desktop software
 
----
+The `open-bricks` family focuses on practical tools that run locally, keep user data under user control, and expose files or JSON exports where useful.
 
-**Research** — [research-line](https://github.com/research-line)
-> Open science: reproducible code for published papers.
+| Area | Examples |
+|---|---|
+| File and data tools | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [ProSync](https://github.com/file-bricks/ProSync), [SQLiteViewer](https://github.com/file-bricks/SQLiteViewer) |
+| Knowledge and prompt tools | [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [MetaWiki](https://github.com/file-bricks/MetaWiki), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt) |
+| Document and mail tools | [DokuReader](https://github.com/doc-bricks/DokuReader), [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) |
+| Developer tools | [DevCenter](https://github.com/dev-bricks/DevCenter), [pythonbox](https://github.com/dev-bricks/pythonbox), [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [CodeBox](https://github.com/dev-bricks/CodeBox) |
+| Bioinformatics | [VFDistiller](https://github.com/biotec-line/VFDistiller), [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) |
+
+### Research repositories
+
+`research-line` contains working papers, reproducible code packages, and research software. Some repositories are exploratory or research-use-only; each project README states its own scope and status.
 
 | Repository | Field |
-|------------|-------|
-| [functional-stability-theory](https://github.com/research-line/functional-stability-theory) | Quantum field theory & cosmology |
-| [crm-cosmology](https://github.com/research-line/crm-cosmology) | Conformal Rescaling Model — dark energy |
-| [rh-even-dominance](https://github.com/research-line/rh-even-dominance) | Riemann Hypothesis — even dominance |
-| [ai-elite-swr](https://github.com/research-line/ai-elite-swr) | Worldview reconstruction of 100 AI leaders |
-| [fst-nash](https://github.com/research-line/fst-nash) | Game theory via functional stability |
-| [multiaxial-diagnostic-system](https://github.com/research-line/multiaxial-diagnostic-system) | Clinical psychology assessment |
-| [system-medicine](https://github.com/research-line/system-medicine) | Integrative diagnostics framework |
+|---|---|
+| [functional-stability-theory](https://github.com/research-line/functional-stability-theory) | Functional stability, quantum field theory, and cosmology |
+| [crm-cosmology](https://github.com/research-line/crm-cosmology) | Conformal Rescaling Model and dark-energy research |
+| [rh-even-dominance](https://github.com/research-line/rh-even-dominance) | Riemann Hypothesis related even-dominance material |
+| [ai-elite-swr](https://github.com/research-line/ai-elite-swr) | Worldview reconstruction of AI leadership texts |
+| [multiaxial-diagnostic-system](https://github.com/research-line/multiaxial-diagnostic-system) | Multiaxial diagnostic research prototype |
+| [system-medicine](https://github.com/research-line/system-medicine) | Integrative diagnostics and system-medicine framework |
+| [verordnungsampel](https://github.com/research-line/verordnungsampel) | Local-first health-policy research tool for German prescribing-rule analysis |
+| [regressangst](https://github.com/research-line/regressangst) | Research and software around regression anxiety and data interpretation |
+| [abc-hct](https://github.com/research-line/abc-hct) | Computational research code for abc/HCT experiments |
 
----
+### Technology keywords
 
-### Tech
-
-Python · PySide6 · TypeScript · Node.js · SQLite · MCP · Claude API · Ollama
+Python, PySide6, TypeScript, Node.js, SQLite, Model Context Protocol, MCP servers, local-first software, privacy-first desktop apps, LLM agents, Ollama, Claude Code, n8n, OCR, PDF tools, reproducible research.
 
 ### Links
 
+[![GitHub](https://img.shields.io/badge/GitHub-lukisch-181717?style=flat-square&logo=github)](https://github.com/lukisch)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--7296--1534-green?style=flat-square&logo=orcid)](https://orcid.org/0009-0005-7296-1534)
-
-[Legal notice / Impressum](https://um-bruch.org/impressum/)
+[![Legal notice](https://img.shields.io/badge/Legal_notice-um--bruch.org-blue?style=flat-square)](https://um-bruch.org/impressum/)
 
 ---
 
 ## Haftung / Liability
 
-Dieses Projekt ist eine **unentgeltliche Open-Source-Schenkung** im Sinne der §§ 516 ff. BGB. Die Haftung des Urhebers ist gemäß **§ 521 BGB** auf **Vorsatz und grobe Fahrlässigkeit** beschränkt. Ergänzend gelten die Haftungsausschlüsse aus GPL-3.0 / MIT / Apache-2.0 §§ 15–16 (je nach gewählter Lizenz).
+Dieses Projekt ist eine **unentgeltliche Open-Source-Schenkung** im Sinne der §§ 516 ff. BGB. Die Haftung des Urhebers ist gemäß **§ 521 BGB** auf **Vorsatz und grobe Fahrlässigkeit** beschränkt. Ergänzend gelten die Haftungsausschlüsse aus GPL-3.0 / MIT / Apache-2.0 §§ 15-16, je nach gewählter Lizenz.
 
 Nutzung auf eigenes Risiko. Keine Wartungszusage, keine Verfügbarkeitsgarantie, keine Gewähr für Fehlerfreiheit oder Eignung für einen bestimmten Zweck.
 
-This project is an unpaid open-source donation. Liability is limited to intent and gross negligence (§ 521 German Civil Code). Use at your own risk. No warranty, no maintenance guarantee, no fitness-for-purpose assumed.
-
+This project is an unpaid open-source donation. Liability is limited to intent and gross negligence under Section 521 of the German Civil Code. Use at your own risk. No warranty, maintenance guarantee, availability guarantee, or fitness for a particular purpose is assumed.
