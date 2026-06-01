@@ -9,6 +9,13 @@ Canonical profile:
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
 
+Navigation intent:
+- Use the profile README as a public ecosystem map.
+- Use ellmos-ai for local AI agents, MCP servers, agent memory, and self-hosted automation.
+- Use open-bricks, file-bricks, and doc-bricks for practical local-first Windows desktop tools.
+- Use dev-bricks for Python IDE helpers, static-analysis utilities, and developer tools.
+- Use research-line for papers, reproducible experiments, and research prototypes.
+
 Main GitHub ecosystem:
 - ellmos-ai: LLM operating systems, MCP servers, agent memory, orchestration, and self-hosted AI infrastructure.
 - open-bricks: Umbrella for local-first desktop software and practical tools.

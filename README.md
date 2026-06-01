@@ -2,6 +2,8 @@
 
 Independent researcher and developer building **local-first AI tools, MCP servers, desktop software, and reproducible research code**.
 
+Use this profile as a map of the public GitHub ecosystem. For machine-readable context, see [`llms.txt`](https://github.com/lukisch/lukisch/blob/main/llms.txt).
+
 I work across a small public GitHub ecosystem:
 
 | Start here | What you will find |
@@ -15,6 +17,15 @@ I work across a small public GitHub ecosystem:
 | [biotec-line](https://github.com/biotec-line) | Local-first bioinformatics tools for VCF and genotype workflows |
 | [entertain-and-more](https://github.com/entertain-and-more) | Small games and AI-assisted entertainment experiments |
 | [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis tools without trading advice |
+
+### Find the right entry point
+
+| If you are looking for | Start with |
+|---|---|
+| Local AI agents, MCP servers, or self-hosted automation | [ellmos-ai](https://github.com/ellmos-ai) |
+| Practical Windows desktop tools that keep data local | [open-bricks](https://github.com/open-bricks), [file-bricks](https://github.com/file-bricks), [doc-bricks](https://github.com/doc-bricks) |
+| Developer tools, Python IDE helpers, or static-analysis utilities | [dev-bricks](https://github.com/dev-bricks) |
+| Papers, reproducible experiments, or research prototypes | [research-line](https://github.com/research-line) |
 
 ### AI infrastructure
 
