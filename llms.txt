@@ -15,6 +15,7 @@ Navigation intent:
 - Use open-bricks, file-bricks, and doc-bricks for practical local-first Windows desktop tools.
 - Use dev-bricks for Python IDE helpers, static-analysis utilities, and developer tools.
 - Use research-line for papers, reproducible experiments, and research prototypes.
+- Use um-bruch for research-use civic, health-policy, and diagnostic-prototype repositories.
 
 Main GitHub ecosystem:
 - ellmos-ai: LLM operating systems, MCP servers, agent memory, orchestration, and self-hosted AI infrastructure.
@@ -23,6 +24,7 @@ Main GitHub ecosystem:
 - doc-bricks: Mail, PDF, reading, document, and archival utilities.
 - dev-bricks: Python IDEs, static-analysis tools, and developer utilities.
 - research-line: Open-science repositories, papers, reproducible code, and research prototypes.
+- um-bruch: Research-use civic, health-policy, system-medicine, and diagnostic-prototype repositories.
 - biotec-line: Local-first bioinformatics tools for VCF and genotype workflows.
 - entertain-and-more: Small games and AI-assisted entertainment experiments.
 - assistassets-ai: Local-first financial analysis tools without trading advice.
@@ -32,11 +34,17 @@ Representative projects:
 - ellmos FileCommander MCP: https://github.com/ellmos-ai/ellmos-filecommander-mcp
 - ellmos CodeCommander MCP: https://github.com/ellmos-ai/ellmos-codecommander-mcp
 - ellmos Clatcher MCP: https://github.com/ellmos-ai/ellmos-clatcher-mcp
+- ellmos Homebase MCP: https://github.com/ellmos-ai/ellmos-homebase-mcp
+- ellmos ServerCommander MCP: https://github.com/ellmos-ai/ellmos-servercommander-mcp
+- ellmos ControlCenter MCP: https://github.com/ellmos-ai/ellmos-controlcenter-mcp
 - n8n Manager MCP: https://github.com/ellmos-ai/n8n-manager-mcp
 - USMC: https://github.com/ellmos-ai/usmc
 - swarm-ai: https://github.com/ellmos-ai/swarm-ai
 - VFDistiller: https://github.com/biotec-line/VFDistiller
-- VerordnungsAmpel: https://github.com/research-line/verordnungsampel
+- VerordnungsAmpel: https://github.com/um-bruch/verordnungsampel
+- regressangst: https://github.com/um-bruch/regressangst
+- multiaxial-diagnostic-system: https://github.com/um-bruch/multiaxial-diagnostic-system
+- system-medicine: https://github.com/um-bruch/system-medicine
 
 Keywords:
 local-first software, privacy-first desktop apps, Model Context Protocol, MCP server, LLM agents, agent memory, Python, PySide6, TypeScript, Node.js, SQLite, Ollama, Claude Code, n8n, OCR, PDF tools, bioinformatics, reproducible research, open science.

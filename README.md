@@ -14,6 +14,7 @@ I work across a small public GitHub ecosystem:
 | [doc-bricks](https://github.com/doc-bricks) | Mail, PDF, reading, document, and archival utilities |
 | [dev-bricks](https://github.com/dev-bricks) | Python IDEs, static-analysis tools, and developer utilities |
 | [research-line](https://github.com/research-line) | Open-science repositories, papers, reproducible code, and research prototypes |
+| [um-bruch](https://github.com/um-bruch) | Research-use civic, health-policy, and diagnostic-prototype repositories |
 | [biotec-line](https://github.com/biotec-line) | Local-first bioinformatics tools for VCF and genotype workflows |
 | [entertain-and-more](https://github.com/entertain-and-more) | Small games and AI-assisted entertainment experiments |
 | [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis tools without trading advice |
@@ -26,6 +27,7 @@ I work across a small public GitHub ecosystem:
 | Practical Windows desktop tools that keep data local | [open-bricks](https://github.com/open-bricks), [file-bricks](https://github.com/file-bricks), [doc-bricks](https://github.com/doc-bricks) |
 | Developer tools, Python IDE helpers, or static-analysis utilities | [dev-bricks](https://github.com/dev-bricks) |
 | Papers, reproducible experiments, or research prototypes | [research-line](https://github.com/research-line) |
+| Civic research, prescribing-rule analysis, or diagnostic research prototypes | [um-bruch](https://github.com/um-bruch) |
 
 ### AI infrastructure
 
@@ -37,6 +39,9 @@ The `ellmos-ai` repositories are the core technical layer for local AI work: age
 | [ellmos FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp) | MCP server for local filesystem, process, search, PDF, markdown, and session operations |
 | [ellmos CodeCommander MCP](https://github.com/ellmos-ai/ellmos-codecommander-mcp) | MCP server for code analysis, AST inspection, import management, and project navigation |
 | [ellmos Clatcher MCP](https://github.com/ellmos-ai/ellmos-clatcher-mcp) | MCP server for JSON repair, format conversion, duplicate detection, and batch operations |
+| [ellmos Homebase MCP](https://github.com/ellmos-ai/ellmos-homebase-mcp) | MCP server for local-first LLM orchestration, memory, routing, API discovery, and automation |
+| [ellmos ServerCommander MCP](https://github.com/ellmos-ai/ellmos-servercommander-mcp) | MCP server for server health checks, log analysis, dry-run deploy manifests, and mail diagnostics |
+| [ellmos ControlCenter MCP](https://github.com/ellmos-ai/ellmos-controlcenter-mcp) | MCP control plane for local server discovery, profile management, capability bundles, and policy audits |
 | [n8n Manager MCP](https://github.com/ellmos-ai/n8n-manager-mcp) | MCP server for inspecting and managing n8n workflows |
 | [USMC](https://github.com/ellmos-ai/usmc) | United Shared Memory Client: local SQLite memory for LLM agents |
 | [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Python toolkit for parallel LLM-agent orchestration patterns |
@@ -65,11 +70,18 @@ The `open-bricks` family focuses on practical tools that run locally, keep user 
 | [crm-cosmology](https://github.com/research-line/crm-cosmology) | Conformal Rescaling Model and dark-energy research |
 | [rh-even-dominance](https://github.com/research-line/rh-even-dominance) | Riemann Hypothesis related even-dominance material |
 | [ai-elite-swr](https://github.com/research-line/ai-elite-swr) | Worldview reconstruction of AI leadership texts |
-| [multiaxial-diagnostic-system](https://github.com/research-line/multiaxial-diagnostic-system) | Multiaxial diagnostic research prototype |
-| [system-medicine](https://github.com/research-line/system-medicine) | Integrative diagnostics and system-medicine framework |
-| [verordnungsampel](https://github.com/research-line/verordnungsampel) | Local-first health-policy research tool for German prescribing-rule analysis |
-| [regressangst](https://github.com/research-line/regressangst) | Research and software around regression anxiety and data interpretation |
 | [abc-hct](https://github.com/research-line/abc-hct) | Computational research code for abc/HCT experiments |
+
+### Applied research and civic prototypes
+
+`um-bruch` contains research-use-only civic, health-policy, and diagnostic-prototype repositories. These projects are not medical devices and do not provide clinical, legal, or financial advice.
+
+| Repository | Field |
+|---|---|
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Local-first research software for German prescribing-rule analysis |
+| [regressangst](https://github.com/um-bruch/regressangst) | Working-paper repository around prescribing-audit recourse anxiety and health-policy transparency |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Research-use-only multiaxial diagnostic documentation prototype |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | Research-only functional pathway medical knowledge graph |
 
 ### Technology keywords
 
