@@ -5,6 +5,7 @@ Canonical profile:
 - Profile repository: https://github.com/lukisch/lukisch
 - ORCID: https://orcid.org/0009-0005-7296-1534
 - Legal notice: https://um-bruch.org/impressum/
+- Last checked: 2026-06-11
 
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
@@ -38,13 +39,45 @@ Representative projects:
 - ellmos ServerCommander MCP: https://github.com/ellmos-ai/ellmos-servercommander-mcp
 - ellmos ControlCenter MCP: https://github.com/ellmos-ai/ellmos-controlcenter-mcp
 - n8n Manager MCP: https://github.com/ellmos-ai/n8n-manager-mcp
+- n8n Workflow Manager: https://github.com/ellmos-ai/n8n-workflow-manager
+- rinnsal: https://github.com/ellmos-ai/rinnsal
+- gardener: https://github.com/ellmos-ai/gardener
+- MarbleRun: https://github.com/ellmos-ai/MarbleRun
+- ellmos-tests: https://github.com/ellmos-ai/ellmos-tests
 - USMC: https://github.com/ellmos-ai/usmc
 - swarm-ai: https://github.com/ellmos-ai/swarm-ai
+- clutch: https://github.com/ellmos-ai/clutch
+- ellmos-stack: https://github.com/ellmos-ai/ellmos-stack
+- ExplorerPro: https://github.com/file-bricks/ExplorerPro
+- CloudLockFixer: https://github.com/file-bricks/CloudLockFixer
+- RSS-BOOK: https://github.com/file-bricks/RSS-BOOK
+- RSS-BOOKSTORE: https://github.com/file-bricks/RSS-BOOKSTORE
+- knowledgedigest: https://github.com/file-bricks/knowledgedigest
+- SoftwareCenter: https://github.com/file-bricks/SoftwareCenter
+- WinStorePackager: https://github.com/file-bricks/WinStorePackager
+- UniversalDocsGrabber: https://github.com/doc-bricks/UniversalDocsGrabber
+- UniversalMailCleaner: https://github.com/doc-bricks/UniversalMailCleaner
+- UniversalInvoiceMail: https://github.com/doc-bricks/UniversalInvoiceMail
+- CleanMarkdown: https://github.com/doc-bricks/CleanMarkdown
+- LitZentrum: https://github.com/doc-bricks/LitZentrum
+- MediaBrain: https://github.com/doc-bricks/MediaBrain
+- MailProcessor: https://github.com/doc-bricks/MailProcessor
+- DevCenter: https://github.com/dev-bricks/DevCenter
+- CodeBox: https://github.com/dev-bricks/CodeBox
+- apiprober: https://github.com/dev-bricks/apiprober
+- companion-for-agy: https://github.com/dev-bricks/companion-for-agy
+- safe-start-for-codex: https://github.com/dev-bricks/safe-start-for-codex
 - VFDistiller: https://github.com/biotec-line/VFDistiller
+- genotype-to-vcf: https://github.com/biotec-line/genotype-to-vcf
 - VerordnungsAmpel: https://github.com/um-bruch/verordnungsampel
 - regressangst: https://github.com/um-bruch/regressangst
 - multiaxial-diagnostic-system: https://github.com/um-bruch/multiaxial-diagnostic-system
 - system-medicine: https://github.com/um-bruch/system-medicine
+- locuterra: https://github.com/um-bruch/locuterra
+- fst-nash: https://github.com/research-line/fst-nash
+- FinancialProof: https://github.com/assistassets-ai/FinancialProof
+- ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
+- rpx: https://github.com/entertain-and-more/rpx
 
 Keywords:
 local-first software, privacy-first desktop apps, Model Context Protocol, MCP server, LLM agents, agent memory, Python, PySide6, TypeScript, Node.js, SQLite, Ollama, Claude Code, n8n, OCR, PDF tools, bioinformatics, reproducible research, open science.
