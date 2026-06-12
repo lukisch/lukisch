@@ -5,7 +5,7 @@ Canonical profile:
 - Profile repository: https://github.com/lukisch/lukisch
 - ORCID: https://orcid.org/0009-0005-7296-1534
 - Legal notice: https://um-bruch.org/impressum/
-- Last checked: 2026-06-11
+- Last checked: 2026-06-12
 
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
@@ -31,6 +31,7 @@ Main GitHub ecosystem:
 - assistassets-ai: Local-first financial analysis tools without trading advice.
 
 Representative projects:
+- ellmos: https://github.com/ellmos-ai/ellmos
 - BACH: https://github.com/ellmos-ai/bach
 - ellmos FileCommander MCP: https://github.com/ellmos-ai/ellmos-filecommander-mcp
 - ellmos CodeCommander MCP: https://github.com/ellmos-ai/ellmos-codecommander-mcp
@@ -44,6 +45,7 @@ Representative projects:
 - gardener: https://github.com/ellmos-ai/gardener
 - MarbleRun: https://github.com/ellmos-ai/MarbleRun
 - ellmos-tests: https://github.com/ellmos-ai/ellmos-tests
+- skills: https://github.com/ellmos-ai/skills
 - USMC: https://github.com/ellmos-ai/usmc
 - swarm-ai: https://github.com/ellmos-ai/swarm-ai
 - clutch: https://github.com/ellmos-ai/clutch

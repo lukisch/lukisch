@@ -4,7 +4,7 @@ Independent researcher and developer building **local-first AI tools, MCP server
 
 Use this profile as a map of the public GitHub ecosystem. For machine-readable context, see [`llms.txt`](https://github.com/lukisch/lukisch/blob/main/llms.txt).
 
-<!-- last-checked: 2026-06-11 -->
+<!-- last-checked: 2026-06-12 -->
 
 I work across a small public GitHub ecosystem:
 
@@ -37,6 +37,7 @@ The `ellmos-ai` repositories are the core technical layer for local AI work: age
 
 | Project | Scope |
 |---|---|
+| [ellmos](https://github.com/ellmos-ai/ellmos) | Local-first LLM operating-system hub for BACH, Rinnsal, gardener, MCP servers, skills, and orchestration |
 | [BACH](https://github.com/ellmos-ai/bach) | Text-based LLM operating system with handlers, tools, skills, memory, and automation modules |
 | [ellmos FileCommander MCP](https://github.com/ellmos-ai/ellmos-filecommander-mcp) | MCP server for local filesystem, process, search, PDF, markdown, and session operations |
 | [ellmos CodeCommander MCP](https://github.com/ellmos-ai/ellmos-codecommander-mcp) | MCP server for code analysis, AST inspection, import management, and project navigation |
@@ -50,6 +51,7 @@ The `ellmos-ai` repositories are the core technical layer for local AI work: age
 | [gardener](https://github.com/ellmos-ai/gardener) | LLM-native SQLite operating-system experiment with searchable memory and task databases |
 | [MarbleRun](https://github.com/ellmos-ai/MarbleRun) | Local-first Claude Code automation for autonomous LLM-agent chains |
 | [ellmos-tests](https://github.com/ellmos-ai/ellmos-tests) | Evaluation framework for SKILL.md-based LLM operating systems and agent hubs |
+| [skills](https://github.com/ellmos-ai/skills) | Portable SKILL.md library for Claude Code, Codex-compatible agents, BACH, and local-first LLM workflows |
 | [USMC](https://github.com/ellmos-ai/usmc) | United Shared Memory Client: local SQLite memory for LLM agents |
 | [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Python toolkit for parallel LLM-agent orchestration patterns |
 | [clutch](https://github.com/ellmos-ai/clutch) | Provider-neutral LLM routing, budget tracking, and orchestration helper |
@@ -64,7 +66,7 @@ The `open-bricks` family focuses on practical tools that run locally, keep user 
 | File and data tools | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [ProSync](https://github.com/file-bricks/ProSync), [SQLiteViewer](https://github.com/file-bricks/SQLiteViewer), [CloudLockFixer](https://github.com/file-bricks/CloudLockFixer) |
 | Knowledge, prompt, and software-library tools | [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [MetaWiki](https://github.com/file-bricks/MetaWiki), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt), [knowledgedigest](https://github.com/file-bricks/knowledgedigest), [SoftwareCenter](https://github.com/file-bricks/SoftwareCenter) |
 | Browser and clipboard tools | [RSS-BOOK](https://github.com/file-bricks/RSS-BOOK), [RSS-BOOKSTORE](https://github.com/file-bricks/RSS-BOOKSTORE), [AmpelClip](https://github.com/file-bricks/AmpelClip) |
-| Document and mail tools | [DokuReader](https://github.com/doc-bricks/DokuReader), [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [MailProcessor](https://github.com/doc-bricks/MailProcessor), [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) |
+| Document and mail tools | [DokuReader](https://github.com/doc-bricks/DokuReader), [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [MailProcessor](https://github.com/doc-bricks/MailProcessor) |
 | Reading and media tools | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [MediaBrain](https://github.com/doc-bricks/MediaBrain) |
 | Developer tools | [DevCenter](https://github.com/dev-bricks/DevCenter), [pythonbox](https://github.com/dev-bricks/pythonbox), [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [WinStorePackager](https://github.com/file-bricks/WinStorePackager) |
 | Codex and agent helper tools | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) |
@@ -82,7 +84,6 @@ The `open-bricks` family focuses on practical tools that run locally, keep user 
 | [rh-even-dominance](https://github.com/research-line/rh-even-dominance) | Riemann Hypothesis related even-dominance material |
 | [ai-elite-swr](https://github.com/research-line/ai-elite-swr) | Worldview reconstruction of AI leadership texts |
 | [fst-nash](https://github.com/research-line/fst-nash) | Potential-game diagnostics for chaperone systems and protein-folding regimes |
-| [abc-hct](https://github.com/research-line/abc-hct) | Computational research code for abc/HCT experiments |
 
 ### Applied research and civic prototypes
 
