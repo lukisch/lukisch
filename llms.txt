@@ -5,7 +5,7 @@ Canonical profile:
 - Profile repository: https://github.com/lukisch/lukisch
 - ORCID: https://orcid.org/0009-0005-7296-1534
 - Legal notice: https://um-bruch.org/impressum/
-- Last checked: 2026-06-12
+- Last checked: 2026-07-26
 
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.

@@ -4,7 +4,10 @@ Independent researcher and developer building **local-first AI tools, MCP server
 
 Use this profile as a map of the public GitHub ecosystem. For machine-readable context, see [`llms.txt`](https://github.com/lukisch/lukisch/blob/main/llms.txt).
 
-<!-- last-checked: 2026-06-12 -->
+> [!NOTE]
+> **AI & Agent Integration Notice**: Machine-readable ecosystem details, entity mapping, and project scopes are structured in [`llms.txt`](llms.txt) for LLM indexing, RAG systems, and AI context assembly.
+
+<!-- last-checked: 2026-07-26 -->
 
 I work across a small public GitHub ecosystem:
 
