@@ -5,7 +5,7 @@ Canonical profile:
 - Profile repository: https://github.com/lukisch/lukisch
 - ORCID: https://orcid.org/0009-0005-7296-1534
 - Legal notice: https://um-bruch.org/impressum/
-- Last checked: 2026-07-26
+- Last checked: 2026-07-30
 
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
@@ -17,6 +17,7 @@ Navigation intent:
 - Use dev-bricks for Python IDE helpers, static-analysis utilities, and developer tools.
 - Use research-line for papers, reproducible experiments, and research prototypes.
 - Use um-bruch for research-use civic, health-policy, and diagnostic-prototype repositories.
+- Use lukisch for direct user repositories, curated resource lists, and legal imprint.
 
 Main GitHub ecosystem:
 - ellmos-ai: LLM operating systems, MCP servers, agent memory, orchestration, and self-hosted AI infrastructure.
@@ -29,6 +30,7 @@ Main GitHub ecosystem:
 - biotec-line: Local-first bioinformatics tools for VCF and genotype workflows.
 - entertain-and-more: Small games and AI-assisted entertainment experiments.
 - assistassets-ai: Local-first financial analysis tools without trading advice.
+- lukisch: Direct user repositories (Awesome-LLM, awesome-mcp-servers, impressum).
 
 Representative projects:
 - ellmos: https://github.com/ellmos-ai/ellmos
@@ -50,6 +52,7 @@ Representative projects:
 - swarm-ai: https://github.com/ellmos-ai/swarm-ai
 - clutch: https://github.com/ellmos-ai/clutch
 - ellmos-stack: https://github.com/ellmos-ai/ellmos-stack
+- task-master: https://github.com/ellmos-ai/task-master
 - ExplorerPro: https://github.com/file-bricks/ExplorerPro
 - CloudLockFixer: https://github.com/file-bricks/CloudLockFixer
 - RSS-BOOK: https://github.com/file-bricks/RSS-BOOK
@@ -80,6 +83,9 @@ Representative projects:
 - FinancialProof: https://github.com/assistassets-ai/FinancialProof
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
 - rpx: https://github.com/entertain-and-more/rpx
+- Awesome-LLM: https://github.com/lukisch/Awesome-LLM
+- awesome-mcp-servers: https://github.com/lukisch/awesome-mcp-servers
+- impressum: https://github.com/lukisch/impressum
 
 Keywords:
 local-first software, privacy-first desktop apps, Model Context Protocol, MCP server, LLM agents, agent memory, Python, PySide6, TypeScript, Node.js, SQLite, Ollama, Claude Code, n8n, OCR, PDF tools, bioinformatics, reproducible research, open science.

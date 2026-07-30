@@ -7,7 +7,7 @@ Use this profile as a map of the public GitHub ecosystem. For machine-readable c
 > [!NOTE]
 > **AI & Agent Integration Notice**: Machine-readable ecosystem details, entity mapping, and project scopes are structured in [`llms.txt`](llms.txt) for LLM indexing, RAG systems, and AI context assembly.
 
-<!-- last-checked: 2026-07-26 -->
+<!-- last-checked: 2026-07-30 -->
 
 I work across a small public GitHub ecosystem:
 
@@ -23,6 +23,17 @@ I work across a small public GitHub ecosystem:
 | [biotec-line](https://github.com/biotec-line) | Local-first bioinformatics tools for VCF and genotype workflows |
 | [entertain-and-more](https://github.com/entertain-and-more) | Small games and AI-assisted entertainment experiments |
 | [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis tools without trading advice |
+| [lukisch](https://github.com/lukisch) | Direct user repositories, curated resource lists, and legal imprint |
+
+### Direct Repositories & Curated Lists
+
+Repositories hosted directly under the personal [@lukisch](https://github.com/lukisch) account:
+
+| Repository | Purpose & Description |
+|---|---|
+| [Awesome-LLM](https://github.com/lukisch/Awesome-LLM) | Curated list of Awesome LLM resources, frameworks, research papers, and courses |
+| [awesome-mcp-servers](https://github.com/lukisch/awesome-mcp-servers) | Curated collection of Model Context Protocol (MCP) servers, clients, and tools |
+| [impressum](https://github.com/lukisch/impressum) | Public legal notice, imprint, and provider identification for web services |
 
 ### Find the right entry point
 
@@ -32,6 +43,7 @@ I work across a small public GitHub ecosystem:
 | Practical Windows desktop tools that keep data local | [open-bricks](https://github.com/open-bricks), [file-bricks](https://github.com/file-bricks), [doc-bricks](https://github.com/doc-bricks) |
 | Developer tools, Python IDE helpers, or static-analysis utilities | [dev-bricks](https://github.com/dev-bricks) |
 | Papers, reproducible experiments, or research prototypes | [research-line](https://github.com/research-line) |
+| Curated AI & MCP resource lists or legal disclosures | [lukisch](https://github.com/lukisch) ([Awesome-LLM](https://github.com/lukisch/Awesome-LLM), [awesome-mcp-servers](https://github.com/lukisch/awesome-mcp-servers), [impressum](https://github.com/lukisch/impressum)) |
 | Civic research, prescribing-rule analysis, or diagnostic research prototypes | [um-bruch](https://github.com/um-bruch) |
 
 ### AI infrastructure
@@ -59,6 +71,7 @@ The `ellmos-ai` repositories are the core technical layer for local AI work: age
 | [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Python toolkit for parallel LLM-agent orchestration patterns |
 | [clutch](https://github.com/ellmos-ai/clutch) | Provider-neutral LLM routing, budget tracking, and orchestration helper |
 | [ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) | Self-hosted AI stack around Ollama, n8n, memory, and knowledge tools |
+| [task-master](https://github.com/ellmos-ai/task-master) | Standalone SQLite task management module for agent workflows |
 
 ### Local-first desktop software
 
