@@ -7,7 +7,7 @@ Use this profile as a map of the public GitHub ecosystem. For machine-readable c
 > [!NOTE]
 > **AI & Agent Integration Notice**: Machine-readable ecosystem details, entity mapping, and project scopes are structured in [`llms.txt`](llms.txt) for LLM indexing, RAG systems, and AI context assembly.
 
-<!-- last-checked: 2026-07-30 -->
+<!-- last-checked: 2026-08-04 -->
 
 I work across a small public GitHub ecosystem:
 
@@ -23,7 +23,7 @@ I work across a small public GitHub ecosystem:
 | [biotec-line](https://github.com/biotec-line) | Local-first bioinformatics tools for VCF and genotype workflows |
 | [entertain-and-more](https://github.com/entertain-and-more) | Small games and AI-assisted entertainment experiments |
 | [assistassets-ai](https://github.com/assistassets-ai) | Local-first financial analysis tools without trading advice |
-| [lukisch](https://github.com/lukisch) | Direct user repositories, curated resource lists, and legal imprint |
+| [lukisch](https://github.com/lukisch) | Direct user repositories, phone-call agent projects, curated resource lists, and legal imprint |
 
 ### Direct Repositories & Curated Lists
 
@@ -34,6 +34,10 @@ Repositories hosted directly under the personal [@lukisch](https://github.com/lu
 | [Awesome-LLM](https://github.com/lukisch/Awesome-LLM) | Curated list of Awesome LLM resources, frameworks, research papers, and courses |
 | [awesome-mcp-servers](https://github.com/lukisch/awesome-mcp-servers) | Curated collection of Model Context Protocol (MCP) servers, clients, and tools |
 | [impressum](https://github.com/lukisch/impressum) | Public legal notice, imprint, and provider identification for web services |
+| [researchcall](https://github.com/lukisch/researchcall) | Dry-run-first Python tool for standardized scientific telephone surveys |
+| [hungrycall](https://github.com/lukisch/hungrycall) | CALL-E voice-agent cascade for food delivery, table reservations, and pickup |
+| [awesome-phone-call-agents](https://github.com/lukisch/awesome-phone-call-agents) | Community hub for reusable phone-call Agent Skills, apps, adapters, scheduler recipes, and safety patterns |
+| [ringedingeding](https://github.com/lukisch/ringedingeding) | CALL-E tool that asks several people by telephone and merges their replies into one result |
 
 ### Find the right entry point
 
@@ -44,6 +48,7 @@ Repositories hosted directly under the personal [@lukisch](https://github.com/lu
 | Developer tools, Python IDE helpers, or static-analysis utilities | [dev-bricks](https://github.com/dev-bricks) |
 | Papers, reproducible experiments, or research prototypes | [research-line](https://github.com/research-line) |
 | Curated AI & MCP resource lists or legal disclosures | [lukisch](https://github.com/lukisch) ([Awesome-LLM](https://github.com/lukisch/Awesome-LLM), [awesome-mcp-servers](https://github.com/lukisch/awesome-mcp-servers), [impressum](https://github.com/lukisch/impressum)) |
+| Phone-call agent skills, call workflows, or telephone research | [awesome-phone-call-agents](https://github.com/lukisch/awesome-phone-call-agents), [researchcall](https://github.com/lukisch/researchcall), [hungrycall](https://github.com/lukisch/hungrycall), [ringedingeding](https://github.com/lukisch/ringedingeding) |
 | Civic research, prescribing-rule analysis, or diagnostic research prototypes | [um-bruch](https://github.com/um-bruch) |
 
 ### AI infrastructure
