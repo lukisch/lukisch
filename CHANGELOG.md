@@ -2,13 +2,13 @@
 
 All notable changes to the `lukisch/lukisch` profile repository will be documented in this file.
 
-## [Unreleased] - 2026-08-04
+## [Unreleased] - 2026-08-10
 
 ### Maintenance & Technical Hygiene
-- Verified the public `lukisch` account on 2026-08-04: eight non-archived public repositories are listed, including the profile repository.
-- Added the four current direct repositories (`researchcall`, `hungrycall`, `awesome-phone-call-agents`, and `ringedingeding`) to the profile map and machine-readable project list.
-- Added a phone-call-agent and telephone-research entry point to improve discoverability without changing external repository settings.
-- Refreshed profile verification timestamp to `2026-08-04` in `README.md` and `llms.txt`.
+- Live public owner readback on 2026-08-10 found five non-archived public repositories under `@lukisch`, including this profile; the direct public set is `Awesome-LLM`, `awesome-mcp-servers`, `awesome-phone-call-agents`, and `impressum`.
+- Removed `researchcall`, `hungrycall`, and `ringedingeding` from the public profile map because they were absent from the current public owner listing; private or unlisted repositories are not represented.
+- Kept the public `awesome-phone-call-agents` entry point without changing external repository settings.
+- Refreshed profile verification timestamps to `2026-08-10` in `README.md` and `llms.txt`.
 - Added missing direct repositories (`Awesome-LLM`, `awesome-mcp-servers`, `impressum`) to `README.md` and `llms.txt`.
 - Synchronized `taskplan` rename to `task-master` across ecosystem references.
 - Enhanced profile discoverability and GFM structure.

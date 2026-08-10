@@ -5,7 +5,7 @@ Canonical profile:
 - Profile repository: https://github.com/lukisch/lukisch
 - ORCID: https://orcid.org/0009-0005-7296-1534
 - Legal notice: https://um-bruch.org/impressum/
-- Last checked: 2026-08-04
+- Last checked: 2026-08-10
 
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
@@ -17,7 +17,7 @@ Navigation intent:
 - Use dev-bricks for Python IDE helpers, static-analysis utilities, and developer tools.
 - Use research-line for papers, reproducible experiments, and research prototypes.
 - Use um-bruch for research-use civic, health-policy, and diagnostic-prototype repositories.
-- Use lukisch for direct user repositories, curated resource lists, and legal imprint.
+- Use lukisch for direct public repositories, phone-call agent skills, curated resource lists, and legal imprint.
 
 Main GitHub ecosystem:
 - ellmos-ai: LLM operating systems, MCP servers, agent memory, orchestration, and self-hosted AI infrastructure.
@@ -30,7 +30,8 @@ Main GitHub ecosystem:
 - biotec-line: Local-first bioinformatics tools for VCF and genotype workflows.
 - entertain-and-more: Small games and AI-assisted entertainment experiments.
 - assistassets-ai: Local-first financial analysis tools without trading advice.
-- lukisch: Direct user repositories and phone-call agent projects (researchcall, hungrycall, awesome-phone-call-agents, ringedingeding, Awesome-LLM, awesome-mcp-servers, impressum).
+- lukisch: Four direct public repositories: Awesome-LLM, awesome-mcp-servers, awesome-phone-call-agents, and impressum.
+- Public owner readback on 2026-08-10: five non-archived public repositories including this profile; private or unlisted repositories are omitted.
 
 Representative projects:
 - ellmos: https://github.com/ellmos-ai/ellmos
@@ -86,10 +87,7 @@ Representative projects:
 - Awesome-LLM: https://github.com/lukisch/Awesome-LLM
 - awesome-mcp-servers: https://github.com/lukisch/awesome-mcp-servers
 - impressum: https://github.com/lukisch/impressum
-- researchcall: https://github.com/lukisch/researchcall — dry-run-first Python tool for standardized scientific telephone surveys.
-- hungrycall: https://github.com/lukisch/hungrycall — CALL-E voice-agent cascade for food delivery, table reservations, and pickup.
 - awesome-phone-call-agents: https://github.com/lukisch/awesome-phone-call-agents — community hub for reusable phone-call Agent Skills, apps, adapters, scheduler recipes, and safety patterns.
-- ringedingeding: https://github.com/lukisch/ringedingeding — CALL-E tool that asks several people by telephone and merges their replies into one result.
 
 Keywords:
 local-first software, privacy-first desktop apps, Model Context Protocol, MCP server, LLM agents, agent memory, Python, PySide6, TypeScript, Node.js, SQLite, Ollama, Claude Code, n8n, OCR, PDF tools, bioinformatics, reproducible research, open science.
