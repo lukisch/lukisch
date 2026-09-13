@@ -1,5 +1,8 @@
 ## Lukas Geiger
 
+<img src="assets/banner.png" width="100%" alt="Lukisch Profile banner">
+
+
 Independent researcher and developer building **local-first AI tools, MCP servers, desktop software, and reproducible research code**.
 
 Use this profile as a map of the public GitHub ecosystem. For machine-readable context, see [`llms.txt`](https://github.com/lukisch/lukisch/blob/main/llms.txt).
