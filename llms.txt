@@ -29,7 +29,7 @@ Main GitHub ecosystem:
 - um-bruch: Research-use civic, health-policy, system-medicine, and diagnostic-prototype repositories.
 - biotec-line: Local-first bioinformatics tools for VCF and genotype workflows.
 - entertain-and-more: Small games and AI-assisted entertainment experiments.
-- assistassets-ai: Local-first financial analysis tools without trading advice.
+- assistassets-ai: Local-first software assistants, desktop software with assistive functions, starting with FinancialProof for finance-oriented evidence review.
 - lukisch: Four direct public repositories: Awesome-LLM, awesome-mcp-servers, awesome-phone-call-agents, and impressum.
 - Public owner readback on 2026-08-10: five non-archived public repositories including this profile; private or unlisted repositories are omitted.
 

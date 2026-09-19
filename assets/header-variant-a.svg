@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Paper shadow filter -->
+    <filter id="paper-drop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#261E1A" flood-opacity="0.10" />
+    </filter>
+    <filter id="cut-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="#261E1A" flood-opacity="0.14" />
+    </filter>
+    <filter id="subtle-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#261E1A" flood-opacity="0.10" />
+    </filter>
+  </defs>
+
+  <!-- Outer canvas: Paper Background (#EBE7E4) -->
+  <rect width="1200" height="380" rx="24" fill="#EBE7E4" />
+
+  <!-- Inner layered paper sheet with warm cut border -->
+  <rect x="18" y="18" width="1164" height="344" rx="20" fill="#F6F3F0" stroke="#DFD9D3" stroke-width="1.5" filter="url(#paper-drop)" />
+
+  <!-- Playful background confetti & paper cutouts -->
+  <g opacity="0.35">
+    <!-- Crimson pink cutout diamond -->
+    <polygon points="80,50 90,35 100,50 90,65" fill="#CC2454" />
+    <!-- Warm orange cutout circle -->
+    <circle cx="280" cy="45" r="7" fill="#E46C24" />
+    <!-- Leaf green cutout pill -->
+    <rect x="520" y="38" width="22" height="8" rx="4" fill="#249C54" transform="rotate(-15 531 42)" />
+    <!-- Plum purple star -->
+    <polygon points="760,42 764,52 774,54 766,60 769,70 760,64 751,70 754,60 746,54 756,52" fill="#6C246C" />
+    <!-- Deep blue circle -->
+    <circle cx="940" cy="48" r="6" fill="#0C3C84" />
+    <!-- Little cross cutouts -->
+    <path d="M 1120 45 L 1132 45 M 1126 39 L 1126 51" stroke="#E46C24" stroke-width="3" stroke-linecap="round" />
+    <circle cx="1090" cy="130" r="5" fill="#CC2454" />
+    <circle cx="70" cy="180" r="6" fill="#249C54" />
+    <polygon points="1130,220 1140,205 1150,220 1140,235" fill="#0C3C84" />
+  </g>
+
+  <!-- Top metadata row -->
+  <g transform="translate(50, 42)">
+    <!-- GitHub Handle Badge (Cut-out Pill) -->
+    <g filter="url(#subtle-shadow)">
+      <rect x="0" y="0" width="140" height="30" rx="15" fill="#0C3C84" />
+      <circle cx="15" cy="15" r="5" fill="#EBE7E4" />
+      <text x="75" y="20" fill="#FFFFFF" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle">@LUKISCH</text>
+    </g>
+
+    <!-- Palette dots in top-right -->
+    <g transform="translate(1000, 15)">
+      <circle cx="0" cy="0" r="6" fill="#CC2454" />
+      <circle cx="20" cy="0" r="6" fill="#E46C24" />
+      <circle cx="40" cy="0" r="6" fill="#249C54" />
+      <circle cx="60" cy="0" r="6" fill="#6C246C" />
+      <circle cx="80" cy="0" r="6" fill="#0C3C84" />
+    </g>
+  </g>
+
+  <!-- Main Wordmark & Identification Row -->
+  <g transform="translate(50, 142)">
+    <!-- Cut-out letters for "Lukisch" matching the exact profile picture palette & rounded style -->
+    <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="64" font-weight="900" filter="url(#cut-shadow)">
+      <text x="0" y="0" fill="#0C3C84">L</text>
+      <text x="42" y="0" fill="#249C54">u</text>
+      <text x="82" y="0" fill="#E46C24">k</text>
+      <text x="120" y="0" fill="#0C3C84">i</text>
+      <text x="138" y="0" fill="#CC2454">s</text>
+      <text x="174" y="0" fill="#E46C24">c</text>
+      <text x="210" y="0" fill="#6C246C">h</text>
+    </g>
+
+    <!-- Paper Divider Stitches -->
+    <line x1="280" y1="-50" x2="280" y2="10" stroke="#DFD9D3" stroke-width="2" stroke-dasharray="4,4" />
+
+    <!-- Lukas Geiger Name & Role -->
+    <g transform="translate(310, 0)">
+      <text x="0" y="-12" fill="#1F2328" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800">Lukas Geiger</text>
+      <text x="0" y="16" fill="#665C54" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" letter-spacing="0.5">Independent Researcher &amp; Developer</text>
+    </g>
+  </g>
+
+  <!-- Tagline Paper Strip (High Contrast, Clean & Legible) -->
+  <g transform="translate(50, 185)" filter="url(#subtle-shadow)">
+    <rect x="0" y="0" width="1100" height="42" rx="12" fill="#FFFFFF" stroke="#E2DDD9" stroke-width="1.2" />
+    <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#2D2520">
+      <!-- Tag 1: Crimson Pink -->
+      <circle cx="30" cy="21" r="5" fill="#CC2454" />
+      <text x="45" y="26">Local-First AI Tools</text>
+
+      <text x="230" y="26" fill="#A89F97" font-weight="400">•</text>
+
+      <!-- Tag 2: Warm Orange -->
+      <circle cx="265" cy="21" r="5" fill="#E46C24" />
+      <text x="280" y="26">MCP Servers</text>
+
+      <text x="415" y="26" fill="#A89F97" font-weight="400">•</text>
+
+      <!-- Tag 3: Leaf Green -->
+      <circle cx="450" cy="21" r="5" fill="#249C54" />
+      <text x="465" y="26">Desktop Software</text>
+
+      <text x="630" y="26" fill="#A89F97" font-weight="400">•</text>
+
+      <!-- Tag 4: Plum Purple -->
+      <circle cx="665" cy="21" r="5" fill="#6C246C" />
+      <text x="680" y="26">Reproducible Research</text>
+
+      <text x="890" y="26" fill="#A89F97" font-weight="400">•</text>
+
+      <!-- Tag 5: Deep Blue -->
+      <circle cx="925" cy="21" r="5" fill="#0C3C84" />
+      <text x="940" y="26">ellmos-ai Ecosystem</text>
+    </g>
+  </g>
+
+  <!-- The 5 Signature Discs with Hands/Arrows and Curled Tails (from lukisch.png) -->
+  <g transform="translate(0, 245)">
+    <!-- Base Paper Stitch Guide Line -->
+    <line x1="80" y1="65" x2="1120" y2="65" stroke="#E4DDD7" stroke-width="1.5" stroke-dasharray="6,6" />
+
+    <!-- 1. PLUM PURPLE DISC (Clock / Stem left) -->
+    <g transform="translate(130, 0)" filter="url(#cut-shadow)">
+      <!-- Angled hand pointing up-left -->
+      <path d="M 45 65 L 15 20" stroke="#E46C24" stroke-width="6" stroke-linecap="round" />
+      <polygon points="15,14 10,26 24,22" fill="#E46C24" />
+      <!-- Outer Ring -->
+      <circle cx="45" cy="65" r="26" fill="none" stroke="#6C246C" stroke-width="7" />
+      <!-- Inner Core -->
+      <circle cx="45" cy="65" r="14" fill="#6C246C" />
+      <circle cx="45" cy="65" r="5" fill="#F6F3F0" />
+    </g>
+
+    <!-- 2. WARM ORANGE DISC (Curled Tail) -->
+    <g transform="translate(340, 0)" filter="url(#cut-shadow)">
+      <!-- Curled tail curving up-left like musical note flag -->
+      <path d="M 45 65 Q 25 35 15 15 Q 10 5 22 2 Q 32 0 32 12 Q 32 20 24 20" fill="none" stroke="#7A7169" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Outer Ring -->
+      <circle cx="45" cy="65" r="28" fill="none" stroke="#E46C24" stroke-width="8" />
+      <!-- Inner Core -->
+      <circle cx="45" cy="65" r="15" fill="#E46C24" />
+      <circle cx="45" cy="65" r="6" fill="#F6F3F0" />
+    </g>
+
+    <!-- 3. CENTERPIECE: CRIMSON PINK DISC (Concentric + Teal Hand) -->
+    <g transform="translate(560, -10)" filter="url(#cut-shadow)">
+      <!-- Large crimson pink outer circle -->
+      <circle cx="50" cy="70" r="44" fill="#CC2454" />
+      <!-- Warm orange middle disc -->
+      <circle cx="50" cy="70" r="30" fill="#E46C24" />
+      <!-- Crimson pink inner core -->
+      <circle cx="50" cy="70" r="16" fill="#CC2454" />
+      <!-- Center white dot -->
+      <circle cx="50" cy="70" r="6" fill="#F6F3F0" />
+      <!-- Sharp Teal/Green angled clock hand pointing up-right -->
+      <path d="M 28 70 L 50 70 L 68 8" fill="none" stroke="#249C54" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- 4. DEEP BLUE DISC (Golden Curled Tail) -->
+    <g transform="translate(790, 0)" filter="url(#cut-shadow)">
+      <!-- Golden/Warm Orange Curled Tail sweeping up-right -->
+      <path d="M 45 65 Q 65 35 75 15 Q 80 5 68 2 Q 58 0 58 12 Q 58 20 66 20" fill="none" stroke="#E46C24" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Outer Ring -->
+      <circle cx="45" cy="65" r="28" fill="none" stroke="#0C3C84" stroke-width="8" />
+      <!-- Inner Core -->
+      <circle cx="45" cy="65" r="15" fill="#0C3C84" />
+      <circle cx="45" cy="65" r="6" fill="#F6F3F0" />
+    </g>
+
+    <!-- 5. LEAF GREEN DISC (Clock Hand up-right) -->
+    <g transform="translate(1000, 0)" filter="url(#cut-shadow)">
+      <!-- Angled hand pointing up-right -->
+      <path d="M 45 65 L 75 20" stroke="#0C3C84" stroke-width="6" stroke-linecap="round" />
+      <polygon points="75,14 80,26 66,22" fill="#0C3C84" />
+      <!-- Outer Ring -->
+      <circle cx="45" cy="65" r="30" fill="none" stroke="#249C54" stroke-width="8" />
+      <!-- Inner Core -->
+      <circle cx="45" cy="65" r="16" fill="#249C54" />
+      <circle cx="45" cy="65" r="6" fill="#F6F3F0" />
+    </g>
+  </g>
+</svg>

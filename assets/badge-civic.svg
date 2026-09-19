@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 36" width="255" height="36">
+  <defs>
+    <filter id="badge-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#241B15" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="251" height="32" rx="8" fill="#CC2454" filter="url(#badge-shadow)" />
+  <!-- Small stylized cut disc icon -->
+  <g transform="translate(18, 18)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="3.5" fill="#249C54" />
+  </g>
+  <text x="36" y="22" fill="#FFFFFF" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" letter-spacing="0.8">APPLIED CIVIC PROTOTYPES</text>
+</svg>
