@@ -11,7 +11,7 @@ Use this profile as a map of the public GitHub ecosystem. For machine-readable c
 > [!NOTE]
 > **AI & Agent Integration Notice**: Machine-readable ecosystem details, entity mapping, and project scopes are structured in [`llms.txt`](llms.txt) for LLM indexing, RAG systems, and AI context assembly.
 
-<!-- last-checked: 2026-08-10 -->
+<!-- last-checked: 2026-09-23 -->
 
 ---
 
@@ -104,7 +104,13 @@ The `ellmos-ai` repositories are the core technical layer for local AI work: age
 | [ellmos-tests](https://github.com/ellmos-ai/ellmos-tests) | Evaluation framework for SKILL.md-based LLM operating systems and agent hubs |
 | [skills](https://github.com/ellmos-ai/skills) | Portable SKILL.md library for Claude Code, Codex-compatible agents, BACH, and local-first LLM workflows |
 | [USMC](https://github.com/ellmos-ai/usmc) | United Shared Memory Client: local SQLite memory for LLM agents |
-| [swarm-ai](https://github.com/ellmos-ai/swarm-ai) | Python toolkit for parallel LLM-agent orchestration patterns |
+| [swarm_ai](https://github.com/ellmos-ai/swarm_ai) | Local-first Python toolkit for parallel Claude and LLM agent orchestration: consensus voting, stigmergy, boss-worker swarms, and benchmarks |
+| [open-compute](https://github.com/ellmos-ai/open-compute) | Model-agnostic computer-use core: one agent loop for Claude, OpenAI CUA, and a mock backend with a central safety gate ([MCP launcher](https://github.com/ellmos-ai/open-compute-mcp)) |
+| [ellmos Blender-Use MCP](https://github.com/ellmos-ai/ellmos-blender-use-mcp) | MCP server for headless Blender asset QA: background script runs and FBX reimport verification |
+| [build-your-users-mind](https://github.com/ellmos-ai/build-your-users-mind) | Recipe for an agent to build a self-improving theory-of-mind model of its user from interaction logs |
+| [system-auditor](https://github.com/ellmos-ai/system-auditor) | Evidence-based system audits across machines with meta-audit bundling and aggregation ladder |
+| [system-explorer](https://github.com/ellmos-ai/system-explorer) | Evidence-backed system maps for functions, carriers, entry points, and architecture drift |
+| [project-docs-template](https://github.com/ellmos-ai/project-docs-template) | Agent-ready project documentation template with START/STATE/TODO/DONE and LLM-friendly project memory |
 | [clutch](https://github.com/ellmos-ai/clutch) | Provider-neutral LLM routing, budget tracking, and orchestration helper |
 | [ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) | Self-hosted AI stack around Ollama, n8n, memory, and knowledge tools |
 | [task-master](https://github.com/ellmos-ai/task-master) | Standalone SQLite task management module for agent workflows |
@@ -120,13 +126,14 @@ The `open-bricks` family focuses on practical tools that run locally, keep user 
 | Area | Examples |
 |---|---|
 | File and data tools | [ExplorerPro](https://github.com/file-bricks/ExplorerPro), [ProFiler](https://github.com/file-bricks/ProFiler), [ProSync](https://github.com/file-bricks/ProSync), [SQLiteViewer](https://github.com/file-bricks/SQLiteViewer), [CloudLockFixer](https://github.com/file-bricks/CloudLockFixer) |
-| Knowledge, prompt, and software-library tools | [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [MetaWiki](https://github.com/file-bricks/MetaWiki), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt), [knowledgedigest](https://github.com/file-bricks/knowledgedigest), [SoftwareCenter](https://github.com/file-bricks/SoftwareCenter) |
+| Knowledge, prompt, and software-library tools | [NoteSpaceLLM](https://github.com/file-bricks/NoteSpaceLLM), [promptboard](https://github.com/file-bricks/promptboard), [ProfiPrompt](https://github.com/file-bricks/ProfiPrompt), [knowledgedigest](https://github.com/file-bricks/knowledgedigest), [SoftwareCenter](https://github.com/file-bricks/SoftwareCenter), [LaunchBoards](https://github.com/file-bricks/LaunchBoards) |
 | Browser and clipboard tools | [RSS-BOOK](https://github.com/file-bricks/RSS-BOOK), [RSS-BOOKSTORE](https://github.com/file-bricks/RSS-BOOKSTORE), [AmpelClip](https://github.com/file-bricks/AmpelClip) |
-| Document and mail tools | [DokuReader](https://github.com/doc-bricks/DokuReader), [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [MailProcessor](https://github.com/doc-bricks/MailProcessor) |
-| Reading and media tools | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [MediaBrain](https://github.com/doc-bricks/MediaBrain) |
-| Developer tools | [DevCenter](https://github.com/dev-bricks/DevCenter), [pythonbox](https://github.com/dev-bricks/pythonbox), [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [WinStorePackager](https://github.com/file-bricks/WinStorePackager) |
-| Cross-agent infrastructure | [ticket-master](https://github.com/ellmos-ai/ticket-master), [lock-master](https://github.com/dev-bricks/lock-master), [sync-master](https://github.com/dev-bricks/sync-master) — core components of [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
-| Codex and agent helper tools | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) |
+| Document and mail tools | [DokuReader](https://github.com/doc-bricks/DokuReader), [DokuZen](https://github.com/doc-bricks/DokuZen), [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr), [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber), [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner), [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail), [MailProcessor](https://github.com/doc-bricks/MailProcessor) |
+| Reading and media tools | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown), [LitZentrum](https://github.com/doc-bricks/LitZentrum), [MediaBrain](https://github.com/doc-bricks/MediaBrain), [llm-note](https://github.com/doc-bricks/llm-note) |
+| AI media and creative tools | [ai-media-editor](https://github.com/ellmos-ai/ai-media-editor), [clip-storyboard-director](https://github.com/ellmos-ai/clip-storyboard-director) |
+| Developer tools | [DevCenter](https://github.com/dev-bricks/DevCenter), [pythonbox](https://github.com/dev-bricks/pythonbox), [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [CodeBox](https://github.com/dev-bricks/CodeBox), [apiprober](https://github.com/dev-bricks/apiprober), [app-rotator](https://github.com/dev-bricks/app-rotator), [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed), [WinStorePackager](https://github.com/file-bricks/WinStorePackager) |
+| Cross-agent infrastructure | [ticket-master](https://github.com/ellmos-ai/ticket-master), [lock-master](https://github.com/ellmos-ai/lock-master), [system-gap-master](https://github.com/ellmos-ai/system-gap-master) — core components of [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
+| Codex and agent helper tools | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) |
 | Bioinformatics | [VFDistiller](https://github.com/biotec-line/VFDistiller), [genotype-to-vcf](https://github.com/biotec-line/genotype-to-vcf) |
 | Finance and entertainment | [FinancialProof](https://github.com/assistassets-ai/FinancialProof), [ChatAndChess](https://github.com/entertain-and-more/ChatAndChess), [rpx](https://github.com/entertain-and-more/rpx) |
 
@@ -143,6 +150,7 @@ The `open-bricks` family focuses on practical tools that run locally, keep user 
 | [rh-even-dominance](https://github.com/research-line/rh-even-dominance) | Riemann Hypothesis related even-dominance material |
 | [ai-elite-swr](https://github.com/research-line/ai-elite-swr) | Worldview reconstruction of AI leadership texts |
 | [fst-nash](https://github.com/research-line/fst-nash) | Potential-game diagnostics for chaperone systems and protein-folding regimes |
+| [abc-hct](https://github.com/research-line/abc-hct) | HCT abc research papers, proof notes, and reproducible no-Magma Hecke quotient artifacts |
 
 ---
 
