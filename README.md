@@ -6,12 +6,12 @@
 
 Independent researcher and developer building **local-first AI tools, MCP servers, desktop software, and reproducible research code**.
 
-Use this profile as a map of the public GitHub ecosystem. For machine-readable context, see [`llms.txt`](https://github.com/lukisch/lukisch/blob/main/llms.txt).
+Use this profile as a map of the public GitHub ecosystem. For machine-readable context, see [`llms.txt`](https://github.com/lukisch/lukisch/blob/main/llms.txt). | 🇩🇪 **[Deutsche Version](README_de.md)**
 
 > [!NOTE]
 > **AI & Agent Integration Notice**: Machine-readable ecosystem details, entity mapping, and project scopes are structured in [`llms.txt`](llms.txt) for LLM indexing, RAG systems, and AI context assembly.
 
-<!-- last-checked: 2026-09-23 -->
+<!-- last-checked: 2026-09-28 -->
 
 ---
 

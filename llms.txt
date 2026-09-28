@@ -5,7 +5,7 @@ Canonical profile:
 - Profile repository: https://github.com/lukisch/lukisch
 - ORCID: https://orcid.org/0009-0005-7296-1534
 - Legal notice: https://um-bruch.org/impressum/
-- Last checked: 2026-09-23
+- Last checked: 2026-09-28
 
 Short description:
 Lukas Geiger is an independent researcher and developer building local-first AI tools, Model Context Protocol servers, desktop software, and reproducible research code.
@@ -31,7 +31,7 @@ Main GitHub ecosystem:
 - entertain-and-more: Small games and AI-assisted entertainment experiments.
 - assistassets-ai: Local-first software assistants, desktop software with assistive functions, starting with FinancialProof for finance-oriented evidence review.
 - lukisch: Four direct public repositories: Awesome-LLM, awesome-mcp-servers, awesome-phone-call-agents, and impressum.
-- Public owner readback on 2026-08-10: five non-archived public repositories including this profile; private or unlisted repositories are omitted.
+- Public owner readback on 2026-09-28: five non-archived public repositories including this profile; private or unlisted repositories are omitted.
 
 Representative projects:
 - ellmos: https://github.com/ellmos-ai/ellmos
@@ -81,6 +81,7 @@ Representative projects:
 - system-medicine: https://github.com/um-bruch/system-medicine
 - locuterra: https://github.com/um-bruch/locuterra
 - fst-nash: https://github.com/research-line/fst-nash
+- abc-hct: https://github.com/research-line/abc-hct
 - FinancialProof: https://github.com/assistassets-ai/FinancialProof
 - ChatAndChess: https://github.com/entertain-and-more/ChatAndChess
 - rpx: https://github.com/entertain-and-more/rpx
